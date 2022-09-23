@@ -35,7 +35,10 @@
 }
 
 .container-middle-upper {
-    height: 30vh;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    height: 50vh;
 }
 
 .container-img {
@@ -44,8 +47,11 @@
 }
 
 .container-text {
+    display: flex;
+    align-items: center;
     height: 100%;
-    width: 20vw;
+    width: 50vw;
+    margin-top: 40px;
 }
 
 p {
@@ -58,6 +64,7 @@ img {
     height: 100%;
     width: 100%;
     object-fit: contain;
+
 }
 /* =================== Section Bottom ==================== */
 
