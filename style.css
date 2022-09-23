@@ -27,6 +27,15 @@
     align-items: center;
 }
 
+.li-menu-top {
+    background-color: aliceblue;   
+}
+
+.li-menu-top:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
 /* =================== Section Middle ==================== */
 
 .section-middle {
