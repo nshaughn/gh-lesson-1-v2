@@ -80,12 +80,17 @@ footer {
 .nav-bottom {
     display: flex;
     width: 30vw;
+    
 }
 
 .ul-nav-bottom {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
     width: 100%;
+    list-style-type: none;
+    
+    
 }
 
 .li-menu-bottom:hover {
